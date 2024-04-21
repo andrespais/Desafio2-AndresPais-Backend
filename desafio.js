@@ -81,17 +81,4 @@ const deleteProduct = async () => {
 }
 // Se testea
 
-addProduct("Producto 1", "el primer producto", 299, "http://www.google.com", "ADF123", 10);
-addProduct("Producto 2", "el segundo producto", 899, "http://www.google.com", "ADF124", 10);
-addProduct("Producto 3", "el tercer producto", 899, "http://www.google.com", "ADF124", 10);
-
-
-updateProduct(2, {
-  title: 'producto 3',
-  description: 'el tercer producto',
-});
-
-getProductById(2)
-
-deleteProduct(3)
 
